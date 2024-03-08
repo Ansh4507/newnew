@@ -1,0 +1,23 @@
+git --version
+// Install Git Bash
+git config --global user.name ""
+git config --global user.email ""
+
+git init
+git add *
+git status
+// create a new repository on github and copy it's https link
+git commit -m "commit message"
+///write any message to display
+git remote add origin <link>
+// write the link of the repo here
+git branch
+// check branch name and accordingly write master/main below
+git push origin main/master
+
+
+// Existing project/ already initializesd and linked repository
+git add *
+git status
+git commit -m "commit message"
+git push origin main/master
